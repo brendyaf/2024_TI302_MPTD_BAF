@@ -34,6 +34,10 @@ public class DivisionCrazy {
         
         this.division = new double [columna1.length];
     }
+
+    DivisionCrazy(double[] columna1, double[] columna2) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
     public int  resolver(){
         for (int i = 1; i < columna1.length; i++) {
