@@ -2,6 +2,7 @@
 package unidad1.proglineal;
 
 public class Simplex {
+    
     private int[] arreg;
 
     public Simplex(int[] arregl) {
