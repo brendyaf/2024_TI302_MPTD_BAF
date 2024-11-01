@@ -7,11 +7,11 @@ public class LineasOptimasTest{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese el tamaño de la matriz (M x M): ");
+        System.out.print("Introduzca tamaño de la matrizn=  ");
         int M = scanner.nextInt();
 
         double[][] matriz = new double[M][M];
-        System.out.println("Ingrese los elementos de la matriz:");
+        System.out.println("Introduzca los elementos = ");
         for (int i = 0; i < M; i++) {
             for (int j = 0; j < M; j++) {
                 matriz[i][j] = scanner.nextDouble();
