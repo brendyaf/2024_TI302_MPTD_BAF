@@ -7,7 +7,7 @@ public class LineasOptimasTest{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Introduzca tamaño de la matrizn=  ");
+        System.out.print("Introduzca tamaño de la matriz=  ");
         int M = scanner.nextInt();
 
         double[][] matriz = new double[M][M];
